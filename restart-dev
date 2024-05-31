@@ -1,0 +1,4 @@
+pm2 stop common_react_frontend
+npm install
+npm run build
+pm2 restart common_react_frontend
